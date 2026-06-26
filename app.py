@@ -1,4 +1,51 @@
 import streamlit as st
+import time
+
+# 1. Page Setup
+st.set_page_config(layout="wide", page_title="Restricted Access")
+
+# 2. Initialize Session State (The "Lock")
+if 'authenticated' not in st.session_state:
+    st.session_state.authenticated = False
+if 'start_time' not in st.session_state:
+    st.session_state.start_time = time.time()
+if 'page' not in st.session_state:
+    st.session_state.page = "Home"
+
+# 3. Security Logic
+current_time = time.time()
+time_elapsed = current_time - st.session_state.start_time
+
+# If they aren't authenticated yet, show the lock screen
+if not st.session_state.authenticated:
+    st.title("-LOCK-")
+    st.write(f"-20 detik sebelum website shut down-")
+    
+    # Check if time is up
+    if time_elapsed > 20:
+        st.error("-DENIED-")
+        st.stop() # This "kicks" the user off the page effectively
+    
+    # Password Input
+    password = st.text_input("Enter Authorization Code", type="password")
+    if st.button("Unlock"):
+        if password == "131366":
+            st.session_state.authenticated = True
+            st.rerun() # Refresh to show the site
+        else:
+            st.error("INCORRECT")
+
+# 4. Main App (Only runs if authenticated == True)
+else:
+    # --- PASTE YOUR EXISTING SIDEBAR AND CONTENT LOGIC HERE ---
+    
+    with st.sidebar:
+        st.markdown("##### PRIVATE FILES")
+        st.markdown("### Contents")
+        # ... (Include the rest of your navigation code) ...
+        
+    if st.session_state.page == "Home":
+        # ... (Your Homepage Content) ...
 
 # 1. Page Configuration
 st.set_page_config(layout="wide", page_title="Wiki-Style Page")
