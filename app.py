@@ -13,6 +13,15 @@ with st.sidebar:
     st.markdown("[Section 2](#section-2)")
     
     st.markdown("---")
+
+    st.markdown("### Others")
+    # Clicking these updates the 'page' variable in memory
+    if st.button("Home"):
+        st.session_state.page = "Home"
+    if st.button("MIR LORE"):
+        st.session_state.page = "Lore"
+    if st.button("The Archives Balquest vs Napis"):
+        st.session_state.page = "Archives"
     
     st.markdown("### Others")
     # Add your navigation links here
@@ -44,3 +53,10 @@ with col2:
     st.markdown("""
     **Side story:** [Mie Ayam terkenal akibat OTMAR sang legenda pesawat yang teragisnya tidak tahu pembuat pesawat pertama. website ini berjutuan untuk informasi yang jarang di ketahui orang lain]""")
 
+elif st.session_state.page == "Lore":
+    st.title("MIR LORE")
+    st.write("Welcome to the secret lore section. Add your stories about the conspiracy here!")
+
+elif st.session_state.page == "Archives":
+    st.title("The Archives: Balquest vs Napis")
+    st.write("The history of the great battle goes here...")
