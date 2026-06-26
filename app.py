@@ -24,12 +24,12 @@ with st.sidebar:
 col1, col2 = st.columns([3, 1])
 
 with col1:
-    st.title("Main Article Title")
-    st.markdown("_From the encyclopedia_")
+    st.title("APA ITU MIE AYAM???")
+    st.markdown("-Wise Man-")
     st.write("---")
     
-    st.header("Introduction")
-    st.write("Write your introductory paragraph here...")
+    st.header("Pemula")
+    st.write("")
     
     st.header("Section 1")
     st.write("Write your first main section here...")
@@ -45,3 +45,4 @@ with col2:
     **Died:** [Date]  
     **Location:** [Place]  
     """)
+
