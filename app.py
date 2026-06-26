@@ -42,5 +42,5 @@ with col2:
     # This acts as the side image box like in image_abab59.jpg
     st.image("https://via.placeholder.com/300", caption="Legacy Mie Ayam")
     st.markdown("""
-    **Side story:** [Mie Ayam terkenal akibat OTMAR sang legenda pesawat yang teragisnya tidak tahu pembuat pesawat pertama. website ini berjutuan untuk informasi yang jarang di ketahui orang lain]
+    **Side story:** [Mie Ayam terkenal akibat OTMAR sang legenda pesawat yang teragisnya tidak tahu pembuat pesawat pertama. website ini berjutuan untuk informasi yang jarang di ketahui orang lain]""")
 
