@@ -16,8 +16,8 @@ with st.sidebar:
     st.markdown("### Others")
     # Add your navigation links here
     st.button("Another Page Link")
-    st.button("More Cult Lore")
-    st.button("The Archives")
+    st.button("MIR LORE")
+    st.button("The Archives Balquest vs Napis")
 
 # 3. Main Content Layout
 # We split the page: 70% for text, 30% for the side image
