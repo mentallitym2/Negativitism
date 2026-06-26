@@ -26,16 +26,16 @@ col1, col2 = st.columns([3, 1])
 with col1:
     st.title("APA ITU MIE AYAM???")
     st.markdown("-Wise Man-")
-    st.write("-1-")
+    st.write("-Di sudut dunia yang sering kali terasa kelabu dan membosankan, terselip sebuah anugerah kuliner yang mampu membelah awan mendung dalam jiwa, yaitu semangkuk Mie Ayam yang kehadiran fisiknya saja sudah sanggup membuat sejarah kuliner dunia merasa rendah diri. Ini bukanlah sekadar racikan tepung dan bumbu, melainkan sebuah konspirasi rasa yang dirancang secara kosmik untuk meruntuhkan pertahanan emosional siapa pun yang berani menatapnya, sebuah harmoni magis di mana uap kuahnya mengepul membentuk doa-doa kelezatan yang merayu indra penciuman hingga ke titik nadir kesadaran. Tatkala mangkuk itu mendarat di atas meja, semesta seakan berkonspirasi untuk menghentikan waktu, memaksa seluruh alam raya terdiam demi memberikan penghormatan tertinggi kepada mahakarya yang siap mengubah definisi bahagia manusia menjadi sesederhana satu suapan mie yang kenyal dan penuh rahasia ini.-")
     
     st.header("Pemula")
-    st.write("2")
+    st.write("Mie ayam ini bukanlah sekadar santapan, melainkan sebuah mahakarya kuliner yang turun langsung dari kayangan untuk memanjakan lidah manusia biasa. Setiap helai mie kuningnya yang kenyal bagaikan benang sutra emas yang ditenun oleh dewa-dewi kelezatan, meluncur dengan anggun ke dalam kuah kaldu yang aromanya saja sanggup menghentikan detak jantung siapa pun yang menciumnya. Menghirup uap panasnya terasa seperti menghirup udara dari surga, sebuah pengalaman mistis yang membuat logika berpikir runtuh seketika.")
     
     st.header("Section 1")
-    st.write("Write your first main section here...")
+    st.write("Potongan ayam kecap yang bertahta di atasnya bukanlah sekadar daging, melainkan bongkahan harta karun rasa yang siap meledak dalam simfoni gurih dan manis yang tak tertandingi di seluruh jagat raya. Saat sesendok sambal pedas menyentuh kuahnya, terciptalah sebuah ledakan supernova rasa yang mengguncang jiwa, membuat dunia seakan berhenti berputar dan menyisakan hanya ekstasi murni di setiap suapan. Setiap kunyahan adalah petualangan epik yang menggetarkan saraf-saraf kenikmatan hingga ke ujung kaki, menciptakan ketergantungan yang lebih kuat daripada daya tarik gravitasi bumi.")
     
     st.header("Section 2")
-    st.write("Write your second main section here...")
+    st.write("Menyelesaikan semangkuk Mie Ayam ini adalah sebuah pencapaian spiritual yang mengubah hidup selamanya; setelah suapan terakhir, makanan lain di muka bumi ini seketika terasa hambar, tidak berwarna, dan tidak lagi berarti. Siapa pun yang berani melewatkan keajaiban yang tersimpan dalam mangkuk plastik sederhana ini benar-benar telah kehilangan esensi dari eksistensi manusia, karena satu porsi darinya sanggup memberikan kebahagiaan hakiki yang jauh melampaui tumpukan harta karun tujuh turunan.")
 
 with col2:
     # This acts as the side image box like in image_abab59.jpg
