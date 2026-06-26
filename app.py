@@ -5,6 +5,7 @@ st.set_page_config(layout="wide", page_title="Wiki-Style Page")
 
 # 2. Sidebar Navigation ("Others")
 with st.sidebar:
+    st.markdown("##### PRIVATE FILES")
     st.markdown("### Contents")
     st.markdown("[Top](#top)")
     st.markdown("[Introduction](#introduction)")
@@ -39,10 +40,7 @@ with col1:
 
 with col2:
     # This acts as the side image box like in image_abab59.jpg
-    st.image("https://via.placeholder.com/300", caption="Subject Name")
+    st.image("https://via.placeholder.com/300", caption="Legacy Mie Ayam")
     st.markdown("""
-    **Born:** [Date]  
-    **Died:** [Date]  
-    **Location:** [Place]  
-    """)
+    **Side story:** [Mie Ayam terkenal akibat OTMAR sang legenda pesawat yang teragisnya tidak tahu pembuat pesawat pertama. website ini berjutuan untuk informasi yang jarang di ketahui orang lain]
 
